@@ -1,0 +1,29 @@
+{
+  "name": "barbershop",
+  "version": "1.0.0",
+  "description": "A place for barbers to get booked and get reviews from customers.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chizwils/barbers.git"
+  },
+  "author": "Chizaram Chinedu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chizwils/barbers/issues"
+  },
+  "homepage": "https://github.com/chizwils/barbers#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+      "passport": "*",
+      "cors": "*",
+      "mongoose": "*",
+      "body-parser":"*",
+      "bcryptjs":"*",
+      "mongodb":"*"
+      
+  }
+}
